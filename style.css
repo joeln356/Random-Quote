@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+:root{
+    --fundo: #20293A;
+}
+body {
+    height: 100vh;
+    background-color: var(--fundo);
+    }
+
+.author-info {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 16px;
+    color: rgb(55, 65, 81);
+}
+
+.author-info a {
+    text-decoration: none;
+}
