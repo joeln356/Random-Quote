@@ -28,14 +28,18 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 15px;
-    width: min(100%, 500px);
+    width: min(100%, 700px);
     background-color: var(--container-fundo);
     padding: 35px;
     background-image: url(resources/bg-image-random-quote.svg);
     background-repeat: no-repeat;
-    background-size: cover  ;
+    background-size: cover;
+    box-shadow: 447px 304px 151px 0px rgba(0, 0, 0, 0), 286px 195px 138px 0px rgba(0, 0, 0, 0.01),
+  161px 110px 117px 0px rgba(0, 0, 0, 0.05), 72px 49px 87px 0px rgba(0, 0, 0, 0.09),
+  18px 12px 48px 0px rgba(0, 0, 0, 0.1);
     
 }
+
 #author{
     font-size: 1rem;
     margin-bottom: 10px;
@@ -91,4 +95,21 @@ body {
     text-decoration: none;
     color: var(--letra);
     font-weight: 700;
+}
+
+@media screen and (min-width:1024px) {
+    #author{
+        font-size: 1.3rem;
+    }
+    .tags{
+        font-size:  1rem;
+    }
+    #quote{
+        text-align: center;
+        font-size: 2rem;
+        margin-top: 20px;
+    }
+    .btn{
+        font-size: 1rem;
+    }
 }
