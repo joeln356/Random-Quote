@@ -28,7 +28,7 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 15px;
-    width: min(100%, 700px);
+    width: min(100%, 600px);
     background-color: var(--container-fundo);
     padding: 35px;
     background-image: url(resources/bg-image-random-quote.svg);
@@ -106,7 +106,7 @@ body {
     }
     #quote{
         text-align: center;
-        font-size: 2rem;
+        font-size: 1.6rem;
         margin-top: 20px;
     }
     .btn{
